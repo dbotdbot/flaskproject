@@ -172,6 +172,8 @@ def postJsonHandler():
 	#get content ready for sending to db
 	timestamp = datetime.datetime.now()
 	print(timestamp)
+	print((content['weight']))
+	print((content['foodtype']))
 	weight = float((content['weight']))
 	foodtype = (content['foodtype'])
 
